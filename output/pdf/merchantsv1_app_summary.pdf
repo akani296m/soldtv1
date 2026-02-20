@@ -1,0 +1,61 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 2026 >>
+stream
+BT /F2 18 Tf 72 732 Td (MerchantsV1 App Summary) Tj ET
+BT /F2 12 Tf 72 706 Td (What it is) Tj ET
+BT /F1 10 Tf 72 690 Td (Multi-tenant merchants platform with an admin dashboard and) Tj ET
+BT /F1 10 Tf 72 677 Td (customer-facing storefronts \(slug or custom domain\) built as a React SPA.) Tj ET
+BT /F2 12 Tf 72 657 Td (Who it's for) Tj ET
+BT /F1 10 Tf 72 641 Td (Primary: merchants/store owners managing products, orders, and their storefront.) Tj ET
+BT /F2 12 Tf 72 621 Td (What it does) Tj ET
+BT /F1 10 Tf 90 605 Td (- Admin dashboard for products, collections, customers, and orders.) Tj ET
+BT /F1 10 Tf 90 592 Td (- Storefront pages: home, catalog, product detail, cart, checkout, order) Tj ET
+BT /F1 10 Tf 102 579 Td (confirmation.) Tj ET
+BT /F1 10 Tf 90 566 Td (- Custom-domain storefront routing alongside admin domain.) Tj ET
+BT /F1 10 Tf 90 553 Td (- Storefront editor, templates, and pages/navigation management.) Tj ET
+BT /F1 10 Tf 90 540 Td (- Payment options via Paystack and Whop on checkout; billing via Polar.) Tj ET
+BT /F1 10 Tf 90 527 Td (- Analytics/monitoring hooks included \(PostHog, Sentry\).) Tj ET
+BT /F2 12 Tf 72 508 Td (How it works) Tj ET
+BT /F1 10 Tf 90 492 Td (- Browser runs Vite/React app with React Router \(admin + /s/:slug storefront\).) Tj ET
+BT /F1 10 Tf 90 479 Td (- Supabase JS client provides auth and data access for) Tj ET
+BT /F1 10 Tf 102 466 Td (merchants/products/orders.) Tj ET
+BT /F1 10 Tf 90 453 Td (- API routes in /api handle payment flows \(Polar checkout/webhook/customer) Tj ET
+BT /F1 10 Tf 102 440 Td (portal, Yoco checkout\).) Tj ET
+BT /F1 10 Tf 90 427 Td (- Custom-domain detection selects storefront vs admin UI; checkout talks to) Tj ET
+BT /F1 10 Tf 102 414 Td (payment providers.) Tj ET
+BT /F2 12 Tf 72 395 Td (How to run) Tj ET
+BT /F1 10 Tf 90 379 Td (- cp .env.example .env  \(set VITE_SUPABASE_ANON_KEY; update URL if needed\)) Tj ET
+BT /F1 10 Tf 90 366 Td (- npm install) Tj ET
+BT /F1 10 Tf 90 353 Td (- npm run dev  \(Vite default: http://localhost:5173\)) Tj ET
+endstream
+endobj
+xref
+0 1
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000000321 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 1 /Root 1 0 R >>
+startxref
+2474
+%%EOF
