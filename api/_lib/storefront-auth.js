@@ -5,7 +5,7 @@ const ADMIN_DOMAINS = [
     'www.merchants.io',
     'soldt.co.za',
     'www.soldt.co.za',
-    'admin.soldt.co.za',
+    'myshop.soldt.co.za',
     'localhost',
     '127.0.0.1',
 ];
