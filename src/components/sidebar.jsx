@@ -75,7 +75,6 @@ export default function Sidebar() {
       hasSubmenu: true,
       children: [
         { name: 'Facebook', path: '/marketing/facebook' },
-        { name: 'Email', path: '/marketing/email' },
         { name: 'Omnisend', path: '/marketing/omnisend' },
         { name: 'TikTok', path: '/marketing/tiktok' },
       ]

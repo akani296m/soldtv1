@@ -24,55 +24,55 @@ export default function SettingsLayout() {
             name: 'General',
             path: '/settings/general',
             icon: Settings,
-            description: 'Manage your store details and preferences'
+
         },
         {
             name: 'Finance',
             path: '/settings/finance',
             icon: CreditCard,
-            description: 'Payment methods and billing'
+
         },
         {
             name: 'Billing',
             path: '/settings/billing',
             icon: CreditCard,
-            description: 'Subscription plans and pricing'
+
         },
         {
             name: 'Manage Store',
             path: '/settings/manage-store',
             icon: Store,
-            description: 'Store configuration and branding'
+
         },
         {
             name: 'Domains',
             path: '/settings/domains',
             icon: Globe,
-            description: 'Connect your custom domain'
+
         },
         {
             name: 'Orders & Notifications',
             path: '/settings/orders-notifications',
             icon: ShoppingBag,
-            description: 'Order processing and email notifications'
+
         },
         {
             name: 'Shipping',
             path: '/settings/shipping',
             icon: Truck,
-            description: 'Shipping zones and delivery options'
+
         },
         {
             name: 'Taxes',
             path: '/settings/taxes',
             icon: Receipt,
-            description: 'Tax rates and collection settings'
+
         },
         {
             name: 'Danger Zone',
             path: '/settings/danger-zone',
             icon: AlertTriangle,
-            description: 'Pause or delete your store'
+
         },
     ];
 
