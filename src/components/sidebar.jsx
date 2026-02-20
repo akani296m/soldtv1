@@ -38,11 +38,7 @@ export default function Sidebar() {
 
   // Navigation sections
   const homeNavItems = [
-    {
-      name: 'Setup Wizard',
-      icon: Wand2,
-      path: '/setup-wizard',
-    },
+
     {
       name: 'Home',
       icon: Grid2X2,
@@ -84,7 +80,7 @@ export default function Sidebar() {
         { name: 'TikTok', path: '/marketing/tiktok' },
       ]
     },
-    { name: 'Analytics', icon: FileText, path: '/analytics' },
+
   ];
 
   // Build the live store URL using merchant slug
@@ -188,13 +184,12 @@ export default function Sidebar() {
   const getPageTitle = () => {
     const path = location.pathname;
     if (path === '/' || path === '/admin') return 'Dashboard';
-    if (path.startsWith('/setup-wizard')) return 'Setup Wizard';
+
     if (path.startsWith('/orders')) return 'Orders';
     if (path.startsWith('/products')) return 'Products';
     if (path.startsWith('/reviews')) return 'Reviews';
     if (path.startsWith('/customers')) return 'Customers';
     if (path.startsWith('/marketing')) return 'Marketing';
-    if (path.startsWith('/analytics')) return 'Analytics';
     if (path.startsWith('/settings')) return 'Settings';
     if (path.startsWith('/store')) return 'Manage Store';
     return 'Soldt'; // Fallback

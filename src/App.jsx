@@ -147,7 +147,6 @@ export default function App() {
             </RequireMerchant>
           </ProtectedRoute>
         }>
-          <Route path="/setup-wizard" element={<SetupWizard />} />
           <Route path="/" element={<HomePage />} />
           <Route path="/orders" element={<OrdersPage />} />
           <Route path="/orders/:id" element={<OrderDetail />} />
